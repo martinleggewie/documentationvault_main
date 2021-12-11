@@ -1,1 +1,23 @@
-{}
+{
+  "strictLineBreaks": true,
+  "showFrontmatter": true,
+  "useTab": false,
+  "tabSize": 2,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 80
+  },
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "defaultViewMode": "preview",
+  "emacsyKeys": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "01_inbox",
+  "attachmentFolderPath": "08_attachments"
+}
