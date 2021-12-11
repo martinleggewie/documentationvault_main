@@ -2,6 +2,9 @@
 
 .vault-stats*
 
+.obsidian/snippets*
+.obsidian/themes*
+
 .obsidian/appearance*
 .obsidian/graph*
 .obsidian/hotkeys*
