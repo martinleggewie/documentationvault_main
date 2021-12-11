@@ -9,3 +9,7 @@
 .obsidian/graph*
 .obsidian/hotkeys*
 .obsidian/workspace*
+
+p_*
+
+9_meta/templates/private
