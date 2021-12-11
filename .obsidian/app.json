@@ -18,6 +18,6 @@
   "defaultViewMode": "preview",
   "emacsyKeys": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "01_inbox",
-  "attachmentFolderPath": "08_attachments"
+  "newFileFolderPath": "1_inbox",
+  "attachmentFolderPath": "8_attachments"
 }
