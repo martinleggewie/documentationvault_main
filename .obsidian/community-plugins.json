@@ -10,5 +10,6 @@
   "obsidian-pandoc",
   "obsidian-show-file-path",
   "theme-picker",
-  "obsidian-zoom"
+  "obsidian-zoom",
+  "templater-obsidian"
 ]
