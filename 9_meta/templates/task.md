@@ -5,11 +5,10 @@ deadline: <% tp.date.now() %>
 status: open
 ---
 
-**Topics:** [[TODO]]
+# <%* tR += await this.app.workspace.getActiveFile().basename %>
+- **Assigned to:** [[<% tp.file.cursor() %>TODO]]
+- **Topics:** [[TODO]]
 
-**Assigned to:** [[TODO]]
-
-# <% tp.file.title %>
 ## What needs to be done?
 -
 

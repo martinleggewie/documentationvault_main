@@ -8,17 +8,25 @@
     ]
   ],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": false,
+  "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "9_meta/templates/private",
-  "enable_folder_templates": false,
-  "folder_templates": [],
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "1_inbox",
+      "template": "9_meta/templates/utils/new-note-creator.md"
+    }
+  ],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [
     "9_meta/templates/dailynote.md",
     "9_meta/templates/meeting.md",
-    "9_meta/templates/task.md"
+    "9_meta/templates/task.md",
+    "9_meta/templates/moc.md",
+    "9_meta/templates/utils/add-date.md",
+    "9_meta/templates/utils/add-filename.md"
   ],
   "startup_templates": [
     ""

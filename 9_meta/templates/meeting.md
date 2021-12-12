@@ -3,26 +3,24 @@ created: <% tp.date.now() %>
 notetype: meeting
 ---
 
-**Topics:** [[TODO]]
-
-#  <% tp.file.title %>
-**Meta information**
-- **Participants:** TODO , <% tp.user.get_username() %>
+# <%* tR += await this.app.workspace.getActiveFile().basename %>
+- **Participants:** <% tp.file.cursor() %>TODO, <% tp.user.get_username() %>
 - **Author:** <% tp.user.get_username() %>
-- **Date:**  [[<% tp.date.now() %>]]
+- **Date:** [[<% tp.date.now() %>]]
+- **Topics:** [[TODO]]
 
-**Goal of the meeting:**
+## Goal of the meeting
 - 
 
-**Before the meeting:**
+## Before the meeting
 - 
 
-**The meeting:**
+## The meeting
 - 
 
-**After the meeting:**
+## After the meeting
 - 
 
-**Next steps:**
+## Next steps
 - 
 
