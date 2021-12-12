@@ -24,3 +24,10 @@ where notetype = "meeting"
   and file.folder != "3_meetings" and file.folder != "9_meta/templates"
 sort deadline asc
 ```
+
+# Notes stored in inbox
+```dataview
+table without id file.link as "Note", notetype as "Type", created as "Created"
+from "1_inbox"
+sort file.name asc
+```
