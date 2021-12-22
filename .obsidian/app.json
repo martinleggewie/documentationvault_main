@@ -19,5 +19,7 @@
   "emacsyKeys": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "1_inbox",
-  "attachmentFolderPath": "8_attachments"
+  "attachmentFolderPath": "8_attachments",
+  "legacyEditor": false,
+  "livePreview": true
 }
