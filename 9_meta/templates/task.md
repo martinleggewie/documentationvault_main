@@ -6,8 +6,11 @@ status: open
 ---
 
 # <%* tR += await this.app.workspace.getActiveFile().basename %>
-- **Assigned to:** [[<% tp.file.cursor() %>TODO]]
-- **Topics:** [[TODO]]
+| .                 | .                                                        |
+| ----------------- | -------------------------------------------------------- |
+| **Assigned to:** | [[<% tp.file.cursor() %>TODO]] | 
+| **Author:**       | <% tp.user.get_username() %>                             |
+| **Topics:**       | [[TODO]]                                                 |
 
 ## What needs to be done?
 -
