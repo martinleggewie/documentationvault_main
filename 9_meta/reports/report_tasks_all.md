@@ -1,7 +1,7 @@
-
-# All meetings
+# All tasks
 ```dataview
-table without id created as "Created",
+table without id status as "Status",
+                 deadline as "Deadline",
                  file.link as "Note",
                  join(
                    sort(
@@ -17,19 +17,9 @@ table without id created as "Created",
                    ),
                    " "
                  ) as "MOCs",
-                 join(
-                   sort(
-                     filter(
-                       file.outlinks,
-                       (x) => (
-                         regexmatch(".*/\d\d\d\d-\d\d-\d\d.md", meta(x).path)
-                       )
-                     )
-                   ),
-                   " "
-                 ) as "Dates"                 
+                 created as "Created"
 from ""
-where notetype = "meeting" and file.folder != "9_meta/templates"
-sort created, file.name asc
+where notetype = "task" and file.folder != "9_meta/templates"
+sort deadline asc
 ```
 

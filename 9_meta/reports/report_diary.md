@@ -1,5 +1,5 @@
 
-# All meetings
+# All diary entries
 ```dataview
 table without id created as "Created",
                  file.link as "Note",
@@ -29,7 +29,6 @@ table without id created as "Created",
                    " "
                  ) as "Dates"                 
 from ""
-where notetype = "meeting" and file.folder != "9_meta/templates"
+where notetype = "diary" and file.folder != "9_meta/templates"
 sort created, file.name asc
 ```
-
