@@ -9,11 +9,11 @@ echo "For each found MOC, the script will create a corresponding file using the 
 echo "At the moment everything is configured in the script - if you want to change something, please adjust the script accordingly."
 
 currentpath=`pwd`
-destinationpath=$currentpath"/../7_mocs"
-templatefile=$currentpath"/templates/moc.md"
+destinationpath=$currentpath"/../../7_mocs"
+templatefile=$currentpath"/../templates/moc.md"
 currentdate=`date -j +"%Y-%m-%d"`
 
-folderstosearch=("$currentpath/../3_meetings" "$currentpath/../4_tasks")
+folderstosearch=("$currentpath/../../3_meetings" "$currentpath/../../4_tasks" "$currentpath/../../5_knowhow")
 
 for folder in $folderstosearch
 do
