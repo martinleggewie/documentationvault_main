@@ -9,3 +9,6 @@ To be concrete: Each team member should make nifty use of modern file systems, m
 A good example for such an empty space is the file "./obsidian/appearance". When Obsidian does not find this file in this location, it will silently create one. But typically a user would like to manage the appearance settings on her own. Each user would have different settings for the appearance. That means that we cannot store this file in the main vault. Instead, each user is supposed to symbolically link this file to the correct location "./obsidian/appearance". By using a symbolical link for this file Obsidian respects the settings in this file while each user can still store and manage these settings in a separate folder location.
 
 Of course, this main vault and also all the user-specific extensions are supposed to be version controlled. Git repos come into mind here.
+
+And if you think that this small README file does not really explain how all of this is supposed to work, then head over to <https://martinleggewie.github.io/documentationvault/>.
+There I describe in more detail what you would need to configure and how to use this vault so that you could also use it for your own purposes.
