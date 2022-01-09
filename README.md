@@ -1,8 +1,8 @@
-# obsidian-vault_main
+# documentationvault_main
 
 An Obsidian vault to contain work-related information like tasks and minutes of meetings, enriched with templates and an opinionated way of managing and even sharing all the information between members of a team working together.
 
-As Obsidian in its current version 0.12.19 is not really designed to contain information for more than one person, the structure of this main vault deliberately leaves some empty spaces. Each team member is supposed to fill in these empty spaces with own files and folders which she manages on her own.
+As Obsidian in its current version 0.13.19 is not really designed to contain information for more than one person, the structure of this main vault deliberately leaves some empty spaces. Each team member is supposed to fill in these empty spaces with own files and folders which she manages on her own.
 
 To be concrete: Each team member should make nifty use of modern file systems, meaning that she is invited to symbolically link all the missing and additional files and folders to the correct locations. By using symbolic linking we can play Obsidian a trick and pretend that all the beloved files are there where Obsidian expects them to be.
 
