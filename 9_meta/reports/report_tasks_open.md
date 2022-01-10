@@ -1,5 +1,5 @@
 
-# Overdue tasks
+# Not closed tasks which are overdue
 ```dataview
 table without id status as "Status",
                  deadline as "Deadline",
@@ -23,11 +23,11 @@ from ""
 where notetype = "task"
   and file.folder != "9_meta/templates"
   and date(deadline) < date(today)
-  and status = "open" or status = "inprogress" or status = "waiting"
+  and (status = "open" or status = "inprogress" or status = "waiting")
 sort deadline asc
 ```
 
-# Not closed tasks
+# Not closed tasks which are not overdue
 ```dataview
 table without id status as "Status",
                  deadline as "Deadline",
@@ -48,7 +48,9 @@ table without id status as "Status",
                  ) as "MOCs",
                  created as "Created" 
 from ""
-where notetype = "task" and file.folder != "9_meta/templates"
-  and status = "open" or status = "inprogress" or status = "waiting"
+where notetype = "task"
+  and file.folder != "9_meta/templates"
+  and date(deadline) >= date(today)
+  and (status = "open" or status = "inprogress" or status = "waiting")
 sort deadline asc
 ```

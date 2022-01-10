@@ -19,7 +19,8 @@ table without id status as "Status",
                  ) as "MOCs",
                  created as "Created"
 from ""
-where notetype = "task" and file.folder != "9_meta/templates"
-  and status = "canceled" or status = "done"
+where notetype = "task"
+  and file.folder != "9_meta/templates"
+  and (status = "canceled" or status = "done")
 sort deadline asc
 ```
