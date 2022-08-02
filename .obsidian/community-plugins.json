@@ -2,14 +2,17 @@
   "table-editor-obsidian",
   "better-word-count",
   "calendar",
-  "obsidian-csv-table",
   "dataview",
   "file-explorer-note-count",
-  "obsidian-kanban",
   "obsidian-outliner",
   "obsidian-pandoc",
   "obsidian-show-file-path",
   "theme-picker",
-  "obsidian-zoom",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-doubleshift",
+  "obsidian-minimal-settings",
+  "omnisearch",
+  "remember-cursor-position",
+  "obsidian-style-settings",
+  "various-complements"
 ]

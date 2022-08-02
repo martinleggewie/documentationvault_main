@@ -7,9 +7,24 @@
 
 .obsidian/appearance*
 .obsidian/graph*
-.obsidian/hotkeys*
 .obsidian/workspace*
 
 p_*
 
 9_meta/templates/private
+
+# exclude the data.json file from plugin "various complements" because with version 6.0.0 it started to keep
+# track of its usage inside this data.json file in the section called "selectionHistoryTree".
+# This leads to a constant change which then Git cannot help but recognize that a change happened. This is
+# mildly annoying because this plugin will make changes to this data.json file all the during its usage.
+# The only solution is to tell Git to ignore this file. But the drawback is that now the rest of the configuration
+# of this plugin would also be lost in case you wanted to started from scratch in a new file system. As a
+# compromise I added the file "data.json_base-cfg" to the plugin's folder. That means you can at least check
+# what the base configuration (that is, the whole configuration of this plugin except this usage data) was.
+# Then you could manually copy the content of the "data.json_base-cfg" to the "data.json" file. This is not
+# elegant, but better than nothing.
+.obsidian/plugins/various-complements/data.json
+
+# Cursor position storage for the remember-cursor-position plugin. As this file would change its content all
+# the time and would therefore always been recognized as having been changed, I exclude it from Git's universe.
+.obsidian/plugins/remember-cursor-position/cursor-positions.json
