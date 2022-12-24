@@ -1,8 +1,5 @@
 {
   "minimal-style@@active-line-on": true,
-  "minimal-style@@tab-style": "tab-style-1",
-  "minimal-style@@title-alignment": "title-align-left",
-  "minimal-style@@show-grabber": true,
   "minimal-style@@h1-l": true,
   "minimal-style@@h2-l": true,
   "minimal-style@@list-spacing": 0.4
